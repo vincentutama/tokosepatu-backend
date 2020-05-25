@@ -54,12 +54,12 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'host' => env('DB_HOST', 'localhost'),
+            'host' => env('DB_HOST', 'db4free.net'),
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'forge'),
-            'username' => env('DB_USERNAME', 'forge'),
-            'password' => env('DB_PASSWORD', ''),
-            'charset' => 'utf8',
+            'database' => env('DB_DATABASE', 'tokosepatu'),
+            'username' => env('DB_USERNAME', 'vincentutama'),
+            'password' => env('DB_PASSWORD', 'wololo14'),
+            'charset' => 'utf8mb4',
             'collation' => 'utf8_unicode_ci',
             'prefix' => '',
             'strict' => false,
